@@ -5,16 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>To-Do's</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
 </head>
 
 <body>
 
-	<input type="text" name="newTask" id="addText"> <button type="submit" id="addBtn">Add Task</button>
-	<h1>Task List</h1>
+	<div class="row mt-5">
+		<div class="col-md-6 offset-3">
+			<input class="form-control" type="text" name="newTask" id="addText"> 
+			<button class="btn btn-primary mt-3" type="submit" id="addBtn">Add Task</button>
+			<h1>Task List</h1>
 
-	<table>
-		<tbody id="resultTable"></tbody>
-	</table>
+			<table>
+				<tbody id="resultTable"></tbody>
+			</table>
+		</div>
+	</div>
+
+	
 
 
 

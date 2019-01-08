@@ -9,7 +9,7 @@
 
 		echo "<tr>
 			<td>".$row['name']."</td>
-			<td><button class=delBtn id=".$row['id'].">Remove</button></td>
+			<td><button class=delBtn btn btn-danger id=".$row['id'].">Remove</button></td>
 		</tr>";
 
 
